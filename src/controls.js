@@ -93,10 +93,10 @@ export default class FirstPersonControls {
         let z = nextPosition.z;
         let terrain = this.app.terrain;
         // Constrain position to terrain bounds
-        if (x < 0 || x >= terrain.width - 1) {
+        if (x < 0 || x >= terrain.width - 200) {
             x = this.position.x;
         }
-        if (z < 0 || z >= terrain.height - 1) {
+        if (z < 0 || z >= terrain.height - 200) {
             z = this.position.z;
         }
         this.position.x = x;
