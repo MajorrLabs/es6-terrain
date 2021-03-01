@@ -24,6 +24,6 @@
     "serialize-javascript": ">=2.1.1"
   },
   "dependencies": {
-    "three": "^0.110.0"
+    "three": "^0.125.0"
   }
 }
